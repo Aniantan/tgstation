@@ -142,6 +142,13 @@
 		/datum/blood_type/lizard,
 	)
 
+/datum/blood_type/moth
+	name = BLOOD_TYPE_MOTH
+	color = BLOOD_COLOR_MOTH
+	compatible_types = list(
+		/datum/blood_type/moth,
+	)
+
 /datum/blood_type/ethereal
 	name = BLOOD_TYPE_ETHEREAL
 	color = /datum/reagent/consumable/liquidelectricity::color
